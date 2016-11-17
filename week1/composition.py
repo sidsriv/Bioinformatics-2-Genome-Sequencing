@@ -14,7 +14,10 @@ def main():
 		sequence = file.readline()[:-1]
 
 	ans = composition(sequence,k)
-
+	with open('ans.txt','w') as out:
+		for s in ans:
+			out.write(s)
+			out.write('/n')
 	for s in ans:
 		print s
 

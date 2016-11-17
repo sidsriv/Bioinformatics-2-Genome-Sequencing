@@ -52,7 +52,7 @@ def cyclic_spectrum(peptide,aa_mass):
 def scoring(peptide,exp_spec):
 	aa_mass = aminoacid_mass_dict()
 	#theo_spec = cyclic_spectrum(peptide,aa_mass)
-	theo_spec = linear_spectrum(peptide,spectrum)
+	theo_spec = linear_spectrum(peptide,aa_mass)
 	theo_count = Counter(theo_spec)
 	exp_count = Counter(exp_spec)
 	count = 0

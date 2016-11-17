@@ -50,5 +50,5 @@ if __name__ == '__main__':
     #print edges
     path = eulerian_cycle(edges)
     print '->'.join(map(str,path))
-    #with open('ans.txt', 'w') as output_data:
-    #    output_data.write('->'.join(map(str,path)))
+    with open('ans.txt', 'w') as output_data:
+        output_data.write('->'.join(map(str,path)))
