@@ -1,3 +1,5 @@
+__author__ = 'Siddhant Srivastava'
+
 import sys
 
 def composition(seq,num):

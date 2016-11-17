@@ -1,3 +1,5 @@
+__author__ = 'Siddhant Srivastava'
+
 from compiler.ast import flatten
 import sys
 

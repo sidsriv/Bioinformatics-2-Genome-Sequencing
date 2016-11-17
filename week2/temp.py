@@ -1,3 +1,5 @@
+__author__ = 'Siddhant Srivastava'
+
 from itertools import product
 import copy
 
